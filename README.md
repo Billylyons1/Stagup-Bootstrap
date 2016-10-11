@@ -1,7 +1,25 @@
-# Stagup-Bootstrap
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <div class="container-fluid">
+  <header class="page-header row"> Place holer text
+</header>
+<section class="feature-panel row">
+  Featured Events Panel
+</section>
+<div class="row">
+<main class="main-content col-sm-9">
+  Main content sections
+</main>
+<aside class="sidebar-content col-sm-3">
+  Sidebar menus and Twitter timeline
+</aside>
+</div>
+<footer class="page-footer row">
+Page Footer
+</footer>
+</div>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,9 +36,10 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
