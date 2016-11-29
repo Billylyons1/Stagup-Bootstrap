@@ -1,0 +1,103 @@
+/**
+* ====================================================================
+*  styles.css -- Global styles for the Fairfield StagUp website
+* ====================================================================
+*/
+/*---- Basic Styling ----*/
+h1 {
+    color:darkred;
+}
+.btn-primary {
+    background-color: #C6102E; /* bright cherry red */
+    border-color: #A50D27; /* a darker shade of the same red */
+}
+
+/*---- Navbar Styling ----*/
+navbar-brand { padding: 6px 15px;}
+
+/*---- Feature-Panel Styling ----*/
+.featured-events-top {
+    background-image: url(/Users/billylyons/Documents/Stagup-Bootstrap/Assets/images/FeaturePhoto..jpg);
+  }
+  .featured-events-top {
+    background-image: url(/Users/billylyons/Documents/Stagup-Bootstrap/Assets/images/FeaturePhoto..jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  .featured-text-container {
+    background-color: white;
+  }
+  .featured-events-top {
+  background-image: url(/Users/billylyons/Documents/Stagup-Bootstrap/Assets/images/FeaturePhoto..jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.featured-text-container {
+  background-color: rgba(100%, 100%, 100%, 0.8);
+}
+.featured-events-top {
+   background-image: url(/Users/billylyons/Documents/Stagup-Bootstrap/Assets/images/FeaturePhoto..jpg);
+   background-size: cover;
+   background-position: center center;
+   padding: 15px;
+ }
+ .featured-text-container {
+   background-color: rgba(100%, 100%, 100%, 0.8);
+   padding: 15px;
+ }
+ .feature-panel h1, .feature-panel h2, .feature-panel h3 {
+  margin:0 0 4px;
+}
+.feature-panel h3 {
+  color: darkred;
+}
+.featured-events-top {
+  background-image: url(../images/FeaturePhoto.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 15px;
+}
+.featured-text-container {
+  background-color: rgba(100%, 100%, 100%, 0.8);
+  padding: 15px;
+}
+.featured-events-top h2 {
+  font-size: 27px;
+}
+.featured-events-bottom {
+  padding: 15px;
+}
+.featured-events-bottom h1 {
+  font-size: 30px;
+}
+.featured-events-bottom h2 {
+  font-size: 24px;
+}
+.featured-events-bottom h3 {
+  font-size:20px;
+}
+/*---- Panel/Menu Styling ----*/
+.panel-primary {
+  border-color: #cccccc;
+}
+.panel-primary .panel-heading {
+  background-color: #333333;
+}
+nav li {
+  list-style:none outside;
+}
+<div class="panel panel-primary">
+  <div class="panel-heading">
+      <h1 class="panel-title">The Late</h1>
+  </div>
+  <div class="panel-body">
+  </div>
+</div>
+
+* Inside the `.panel-body`, insert the following embedding code from Twitter:
+```html
+<a class="twitter-timeline" data-tweet-limit="10"
+data-widget-id="634723474951565312" href="https://twitter.com/StagUp_BPC">Tweets by @StagUp_BPC</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
